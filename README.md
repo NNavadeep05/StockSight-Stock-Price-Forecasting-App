@@ -40,26 +40,4 @@ Developed an end-to-end stock market prediction application with a deep learning
 4.  **Explore!** Your browser will open the application. Enter any stock symbol (e.g., `GOOG`, `AAPL`) to start exploring predictions and visualizations.
 
 ---
-
-## 📸 Glimpse into the Future (and Past!)
-
-*(You would embed your images here as you did before)*
-
-### Application Homepage: Your Command Center!
-![Application Homepage](screenshots/image_42a747.png)
-
-### Stock Data Display: Raw Power at Your Fingertips!
-![Stock Data Display](screenshots/image_42a7a4.png)
-
-### Price vs MA50: Uncovering Short-Term Dynamics!
-![Price vs MA50](screenshots/image_42a7a8.png)
-
-### Price vs MA50 vs MA100: Double the Trend, Double the Insight!
-![Price vs MA50 vs MA100](screenshots/image_42a7c1.png)
-
-### Price vs MA100 vs MA200: Deciphering Long-Term Signals!
-![Price vs MA100 vs MA200](screenshots/image_42a7c2.png)
-
----
-
 *(Consider adding a "License" section if applicable)*
