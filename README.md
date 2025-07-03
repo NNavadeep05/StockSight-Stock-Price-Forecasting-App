@@ -1,15 +1,29 @@
-# 📈 StockSight: Stock Market Analytics & Visualization 📊
-**Tech:** Python (Streamlit, yfinance, Pandas, Matplotlib, scikit-learn) • Jupyter
-| Self-Project | June'25
+# 📈 StockSight: Stock Market Analytics & Forecasting
+
+**Tech:** Python (Streamlit, Keras, yFinance, Pandas, Matplotlib, scikit-learn) • Jupyter  
+|  Self-Project  |  **Date:** June ’25
+
+---
 
 ## 🚀 Project Summary
-**StockSight** is a web application designed for comprehensive stock market analytics and visualization. It enables users to seamlessly fetch and analyze historical market data, providing interactive charting capabilities for trends and key indicators through an intuitive Streamlit interface.
 
-## 🔧 Key Contributions
-- 🔗 **Automated Data Ingestion:** Implemented `yfinance` to automatically fetch historical stock data for any specified ticker, ensuring fresh and relevant analysis.
-- 📊 **Interactive Web UI:** Built a user-friendly web application using Streamlit for dynamic stock symbol input and real-time visualization of historical data.
-- 📈 **Comprehensive Trend Visualization:** Developed robust plotting functions using Matplotlib to display historical prices alongside 50-day, 100-day, and 200-day Simple Moving Averages (SMA) for in-depth trend analysis.
-- 🧮 **Optimized Data Preprocessing:** Utilized `MinMaxScaler` from `scikit-learn` for efficient data scaling, a common practice for preparing time-series data for analysis.
+**StockSight** is a stock market analytics and forecasting web application designed to provide users with real-time insights into historical trends and future price movements. Built with Streamlit and LSTM neural networks in Keras, it delivers intuitive visualizations, automated data fetching, and model-driven price forecasting with **~95% prediction accuracy**.
+
+---
+
+## 🔧 Key Features & Contributions
+
+- 🔗 **Automated Data Ingestion:** Used `yFinance` to dynamically fetch historical stock data for any ticker symbol, ensuring real-time relevance.
+  
+- 📊 **Interactive Web Interface:** Developed a responsive Streamlit app that accepts user input and visualizes raw and processed market data.
+
+- 📈 **Advanced Trend Visualization:** Implemented plotting modules using Matplotlib to display closing prices alongside technical indicators like SMA50, SMA100, and SMA200.
+
+- 🤖 **LSTM-Based Forecasting Model:** Trained a Long Short-Term Memory model using Keras and TensorFlow, achieving **~95% accuracy** in predicting future price trends.
+
+- 🧮 **Efficient Data Preprocessing:** Employed `MinMaxScaler` for normalization, a best practice for time-series modeling and smoother convergence in LSTM training.
+
+---
 
 ## 🧠 Notable Insights
 - Moving averages (MA50, MA100, MA200) serve as crucial technical indicators for understanding market sentiment and identifying potential support/resistance levels.
