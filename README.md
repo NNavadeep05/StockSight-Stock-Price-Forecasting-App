@@ -35,5 +35,3 @@
 3.  **Explore!** Your browser will open the application. Enter any stock symbol (e.g., `GOOG`, `AAPL`) to start exploring historical data and moving average visualizations.
 
 ---
-
-*(Consider adding a "License" section if applicable)*
