@@ -1,6 +1,6 @@
 # 📈 StockSight: Stock Market Analytics & Visualization 📊
 **Tech:** Python (Streamlit, yfinance, Pandas, Matplotlib, scikit-learn) • Jupyter
-**Role:** Data Analyst | Self-Project | July'25
+| Self-Project | June'25
 
 ## 🚀 Project Summary
 **StockSight** is a web application designed for comprehensive stock market analytics and visualization. It enables users to seamlessly fetch and analyze historical market data, providing interactive charting capabilities for trends and key indicators through an intuitive Streamlit interface.
