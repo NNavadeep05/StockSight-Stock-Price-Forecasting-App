@@ -1,72 +1,65 @@
-# 📈 Stock Market Predictor: Chart Your Future! 🚀
+# 📈 Stock Market Predictor 🚀
+**Tech:** Python (Keras, Streamlit, yfinance, Pandas, Matplotlib, scikit-learn) • Jupyter
+**Role:** Data Scientist / ML Engineer | Self-Project | July'25
 
-## Uncover the Secrets of Stock Trends with AI-Powered Insights!
+## 🚀 Project Summary
+Developed an end-to-end stock market prediction application with a deep learning model, capable of forecasting future stock prices and visualizing historical trends. The solution integrates data fetching, model inference, and interactive charting via a Streamlit web interface.
 
-This project isn't just a stock market predictor; it's your personal financial crystal ball! 🔮 Built with the power of Python and cutting-edge machine learning, our application helps you forecast future stock prices and dive deep into historical data with interactive visualizations. Get ready to make more informed decisions!
+## 🔧 Key Contributions
+- 🧠 **Deep Learning Model:** Engineered, trained, and deployed a Keras-based neural network for accurate stock price predictions.
+- 🔗 **Automated Data Ingestion:** Implemented `yfinance` to automatically fetch real-time historical stock data.
+- 📊 **Interactive Web UI:** Built a user-friendly web application using Streamlit for dynamic input and real-time visualization of stock data and predictions.
+- 📈 **Trend Visualization:** Developed robust plotting functions using Matplotlib to display historical prices, 50-day, 100-day, and 200-day moving averages for comprehensive trend analysis.
+- 🧮 **Data Preprocessing:** Implemented `MinMaxScaler` for efficient data scaling, optimizing model training and performance.
 
----
+## 🧠 Notable Insights
+- Model effectively captures underlying price patterns and trend reversals.
+- Moving averages (MA50, MA100, MA200) serve as crucial indicators for understanding market sentiment and potential support/resistance.
+- Scaled data significantly improves the convergence and performance of the deep learning model.
 
-## ✨ **What's Inside?**
+## 📂 Files
+| File | Purpose |
+|-----------------------------------|---------------------------------------------|
+| `app.py` | Streamlit web application: Fetches data, loads model, displays predictions & visualizations |
+| `Stock_Market_Prediction_Model_Creation.ipynb` | Jupyter Notebook: Detailed model creation, training, and evaluation pipeline |
+| `Stock Predictions Model.keras` | Pre-trained Keras deep learning model for predictions |
+| `screenshots/` | Folder containing visual demonstrations of the application |
 
-* **⚡ Blazing Fast Predictions:** Harness the might of a trained deep learning model to predict tomorrow's stock prices with surprising accuracy.
-* **📊 Dynamic Data Visualizations:** See the past come alive! Explore comprehensive historical stock data right at your fingertips.
-* **💡 Intelligent Trend Analysis:** Don't just see numbers, understand them! We plot 50-day, 100-day, and 200-day Simple Moving Averages (SMA) to reveal crucial trends, support, and resistance levels.
-* **🖐️ User-Friendly Interface:** Simply type in any stock symbol, and watch the magic unfold! Our Streamlit interface makes financial analysis a breeze.
-
----
-
-## 🛠️ **Under the Hood: The Tech Stack**
-
-We've harnessed the best tools in the Python ecosystem to bring this predictor to life:
-
-* **Python:** The powerhouse behind it all.
-* **Streamlit:** For crafting a beautiful and interactive web app.
-* **Keras (with TensorFlow):** Our deep learning engine for robust price predictions.
-* **yfinance:** Your direct line to real-time (and historical) stock data from Yahoo Finance.
-* **Pandas & NumPy:** The workhorses for lightning-fast data manipulation and numerical wizardry.
-* **Matplotlib:** Turning complex data into stunning, easy-to-understand charts.
-* **Scikit-learn:** For data preprocessing, ensuring our models get the cleanest data.
-
----
-
-## 🚀 **Get Up and Running (It's Easier Than You Think!)**
-
-Ready to start predicting? Follow these simple steps:
-
-### **Prerequisites**
-
-Make sure you have **Python 3.7+** installed. If not, grab it!
-
-### **Installation**
-
-1.  **Clone this repository:**
-    ```bash
-    git clone <your_repository_url_here>
-    cd stock-market-predictor
-    ```
-    *(**Heads Up!** If you haven't uploaded this to GitHub yet, you can skip `git clone` and just ensure all project files are in one directory.)*
-
-2.  **Install the essential libraries:**
+## ▶️ How to Run
+1.  **Install Dependencies:** Ensure you have Python 3.7+ and install all required libraries:
     ```bash
     pip install streamlit tensorflow yfinance pandas numpy matplotlib scikit-learn
     ```
-
-3.  **Model Magic: Train or Place Your Model!**
-    Our `app.py` needs a brain: `Stock Predictions Model.keras`. You have two options:
-    * **Train it yourself:** Open and run the `Stock_Market_Prediction_Model_Creation.ipynb` Jupyter notebook. It walks you through building and saving the model.
-    * **Place a pre-trained model:** If you already have `Stock Predictions Model.keras`, just put it in the same directory as `app.py`.
-
-    **🚨 IMPORTANT PATH FIX! 🚨**
-    The current `app.py` has a specific path for the model: `'C:\\Python\\Stock\\Stock Predictions Model.keras'`.
-    **For hassle-free use, we highly recommend changing this line in `app.py` to:**
-    ```python
-    model = load_model('Stock Predictions Model.keras')
+2.  **Model Setup:**
+    * Run `Stock_Market_Prediction_Model_Creation.ipynb` to train and save the `Stock Predictions Model.keras` file.
+    * **Crucially:** Update the model loading path in `app.py` from `'C:\\Python\\Stock\\Stock Predictions Model.keras'` to `'Stock Predictions Model.keras'` (assuming the model file is in the same directory as `app.py`).
+3.  **Launch Application:** Navigate to the project directory in your terminal and run the Streamlit app:
+    ```bash
+    streamlit run app.py
     ```
-    This way, the model can be located in the same folder as your `app.py` script.
+4.  **Explore!** Your browser will open the application. Enter any stock symbol (e.g., `GOOG`, `AAPL`) to start exploring predictions and visualizations.
 
-### **Launching the App (Prepare for Lift-Off! 🚀)**
+---
 
-Navigate to your project folder in the terminal and run:
+## 📸 Glimpse into the Future (and Past!)
 
-```bash
-streamlit run app.py
+*(You would embed your images here as you did before)*
+
+### Application Homepage: Your Command Center!
+![Application Homepage](screenshots/image_42a747.png)
+
+### Stock Data Display: Raw Power at Your Fingertips!
+![Stock Data Display](screenshots/image_42a7a4.png)
+
+### Price vs MA50: Uncovering Short-Term Dynamics!
+![Price vs MA50](screenshots/image_42a7a8.png)
+
+### Price vs MA50 vs MA100: Double the Trend, Double the Insight!
+![Price vs MA50 vs MA100](screenshots/image_42a7c1.png)
+
+### Price vs MA100 vs MA200: Deciphering Long-Term Signals!
+![Price vs MA100 vs MA200](screenshots/image_42a7c2.png)
+
+---
+
+*(Consider adding a "License" section if applicable)*
