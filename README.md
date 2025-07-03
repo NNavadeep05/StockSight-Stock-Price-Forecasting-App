@@ -1,7 +1,7 @@
 # 📈 StockSight: Stock Market Analytics & Forecasting
 
 **Tech:** Python (Streamlit, Keras, yFinance, Pandas, Matplotlib, scikit-learn) • Jupyter  
-|  Self-Project  |  **Date:** June ’25
+|  Self-Project  | June ’25
 
 ---
 
