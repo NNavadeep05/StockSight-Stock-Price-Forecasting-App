@@ -81,6 +81,5 @@ and renders all four charts.
 
 
 ## Developer
-
--- • Navadeep Nandedapu
--- • Indian Institute of Technology Kharagpur
+* Navadeep Nandedapu
+* Indian Institute of Technology Kharagpur
