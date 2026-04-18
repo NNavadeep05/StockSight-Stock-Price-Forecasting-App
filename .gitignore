@@ -40,3 +40,4 @@ venv.bak/
 model/*.keras
 .DS_Store
 *.h5
+
