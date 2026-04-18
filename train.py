@@ -47,3 +47,4 @@ os.makedirs(model_dir, exist_ok=True)
 
 model_path = os.path.join(model_dir, "stock_predictions_model.keras")
 model.save(model_path)
+# this is a comment
